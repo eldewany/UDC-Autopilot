@@ -27,7 +27,7 @@ for i=1:Nm
     Lm=sqrt(dx^2+dy^2);
     Cx=dx/Lm;
     Cy=dy/Lm;
-    Em=E(M_Info(i,1));
+    Em=E_new(M_Info(i,1));
     Ame=Area(M_Info(i,2));
     Dof=[2*N1-1,2*N1,2*N2-1,2*N2];    
     Smd(:,:,i)=Em*Ame/Lm*[Cx^2 Cx*Cy -Cx^2 -Cx*Cy;
@@ -143,4 +143,3 @@ for i=1:Nm
 end
 Am
 
-Dewany change 4
