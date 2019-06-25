@@ -140,5 +140,5 @@ for i=1:Nm
     plot(xbar1,BM1,xbar2,BM2)
     xlabel('x_m')
     title(['Bending Diagram of member ',num2str(i)])
-end
+i  detelted end 
 Am
